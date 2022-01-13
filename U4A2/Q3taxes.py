@@ -19,6 +19,10 @@ ItemCost10 = 0
 
 Tax = float(0.13)
 
+TotalCost = 0
+
+# The last "t" in the variable TotalCosT is refering to the total cost with tax, this variable is different from the one above - "TotalCost" 
+TotalCosT = 0
 
 # INPUT
 

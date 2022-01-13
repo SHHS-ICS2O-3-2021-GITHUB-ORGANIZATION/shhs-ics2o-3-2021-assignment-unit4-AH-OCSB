@@ -26,7 +26,5 @@ height = int(input("please enter the height"))
 
 volume = (length * width * height)
 
-
-
 # OUTPUT
 print(volume)

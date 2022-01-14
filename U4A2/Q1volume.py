@@ -15,6 +15,7 @@ volume = 0
 
 # INPUT
 
+#Each prompts the user to enter the dimensions of the rectangular prism
 length = int(input("please enter the length:"))
 
 width = int(input("please enter the width:"))
@@ -25,8 +26,6 @@ height = int(input("please enter the height"))
 # PROCESSING
 
 volume = (length * width * height)
-
-
 
 # OUTPUT
 print(volume)

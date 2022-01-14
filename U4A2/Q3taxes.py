@@ -19,9 +19,16 @@ ItemCost10 = 0
 
 Tax = float(0.13)
 
+totalCost = 0
+
+answer = 0
+
+# The last "t" in the variable TotalCosT is refering to the total cost with tax, this variable is different from the one above - "TotalCost" 
+totalCosT = 0
 
 # INPUT
 
+#prompts the user to input the cost's of the items
 ItemCost1 = float(input("please enter the cost of item one:"))
 ItemCost2 = float(input("please enter the cost of item two:"))
 ItemCost3 = float(input("please enter the cost of item three:"))
@@ -36,14 +43,15 @@ ItemCost10 = float(input("please enter the cost of item ten:"))
 
 # PROCESSING
 
-TotalCost = (ItemCost1 + ItemCost2 + ItemCost3 + ItemCost4 + ItemCost5 + ItemCost6 + ItemCost7 + ItemCost8 + ItemCost9 + ItemCost10)
+totalCost = (ItemCost1 + ItemCost2 + ItemCost3 + ItemCost4 + ItemCost5 + ItemCost6 + ItemCost7 + ItemCost8 + ItemCost9 + ItemCost10)
 
-TotalCosT = (TotalCost * Tax)
+totalCosT = (totalCost * Tax)
 
+answer = totalCost + totalCosT 
 
 # OUTPUT
 
 print("The total cost with out Tax is:")
-print(TotalCost)
+print(totalCost)
 print("The total cost with Tax is:") 
-print(TotalCosT)
+print(answer)

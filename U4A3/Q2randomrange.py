@@ -10,7 +10,7 @@ import random
 number1 = 0
 number2 = 0
 
-ran = 0
+ran=0
 
 number = 0
 
@@ -20,7 +20,7 @@ ran = (input("Please enter a range: "))
 
 # PROCESSING
 
-number = random.randint(ran)
+number = random.randint(int(ran))
 
 # OUTPUT
 

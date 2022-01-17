@@ -3,6 +3,7 @@
 # DATE OF CREATION:  January,14,2022
 # PURPOSE OF PROGRAM:  Calaculate the pythagoream therom with numbers given by the user 
 
+import math 
 
 # VARIABLE DEFINITION
 
@@ -18,10 +19,9 @@ lengthB = int(input("please enter the length of side B: "))
 
 
 # PROCESSING
-import math
+from math import sqrt
 
-lengthC = (lengthA**2) + (lengthB**2)
-
+lengthC = sqrt((lengthA**2) + (lengthB**2))
 
 
 # OUTPUT

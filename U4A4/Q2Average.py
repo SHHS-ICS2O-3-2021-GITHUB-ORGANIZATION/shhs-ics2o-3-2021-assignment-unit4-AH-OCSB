@@ -5,6 +5,7 @@
 
 
 # VARIABLE DEFINITION
+import math
 
 list = 0
 
@@ -23,17 +24,14 @@ for i in range(len(userList)):
   userList[i] = int(userList[i])
 
 #allowing the user to see their average and sum of the numbers 
-input("please enter the number 0 to see your sum and average")
-
-sum = int(0 + userList) 
+zeroInput = int(input("please enter the number 0 to see your sum and average"))
 
 #average = userList // 
-
-
+listLength = len(userList)
+listSum = sum(userList)
+listAverage = listSum//listLength
 # OUTPUT
 
-if input == 0: 
-  print(sum)
-
-#if input == 0:
-  #print(average)
+if zeroInput == 0: 
+   print("Sum = ", listSum)
+   print("average = ", listAverage)

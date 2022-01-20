@@ -35,3 +35,11 @@ listAverage = listSum//listLength
 if zeroInput == 0: 
    print("Sum = ", listSum)
    print("average = ", listAverage)
+elif zeroInput != 0:
+  zeroInput2 = int(input("please try again: "))
+  if zeroInput2 == 0: 
+    print("sum =", listSum)
+    print("average = ", listAverage)
+  else:
+      print("You Failed")
+      exit()

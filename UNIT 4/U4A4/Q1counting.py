@@ -11,7 +11,7 @@ largeNumber = 0
 
 
 # INPUT
-
+#prompt user to imput a large number and a number to go up by
 number = int(input("Please give a number to count up by: "))
 largeNumber = int(input("please give a large number to start at: "))
 

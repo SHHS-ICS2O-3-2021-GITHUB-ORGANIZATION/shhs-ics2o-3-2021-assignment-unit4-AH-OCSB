@@ -3,6 +3,7 @@
 #Name of Creation: Math problem Generator
 #Purpuse of the program: Generate a multiplaction problem with random generated numbers
 
+
 import random 
 
 #variables
@@ -12,18 +13,21 @@ question = 0
 answer = 0
 
 #input
-number1 = (random.randint(1, 12))
-number2 = (random.randint(1, 12))
+while True:
+  number1 = (random.randint(1, 12))
+  number2 = (random.randint(1, 12))
 
-print(number1, number2)
-print("please answer the multiplaction question:")
-userAnswer = int(input())
+  print(number1, number2)
+  print("please answer the multiplaction question:")
+  userAnswer = int(input())
 
 
 #output
-answer = int((number1 * number2))
+  answer = int((number1 * number2))
 
-if userAnswer == answer: 
-  print("you are correct! ")
-elif userAnswer != answer:
-  print("Incorrect, you failed! The answer to this question was actually" + str(print(answer))
+  if userAnswer == answer: 
+    print("you are correct! ")
+  elif userAnswer != answer:
+    print("Incorrect, The answer to this question was actually") + str(print(answer))
+
+  x = exit(input("if you would like to exit the game please enter x:"))  
